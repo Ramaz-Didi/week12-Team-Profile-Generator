@@ -1,0 +1,33 @@
+.jumbotron {
+background-color: rgb(255, 0, 93);
+color: white;
+}
+.card-header {
+    width: 300px;
+    height: 100px;
+    background-color: blue;
+}
+.card-title {
+    color: white;
+}
+.card-body {
+    background-color:rgb(251, 243, 243);
+}
+.card-body {
+    text-align: center;
+    margin: 0.5em;
+    padding: 0.3em;
+    background-image:linear-gradient(rgb(233, 244, 249), rgb(236, 246, 250));
+    font-weight: bold;
+ }
+ .events {
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: auto;
+    grid-gap: .5rem;
+ 
+ }
+.list-group-item {
+    text-align: left;
+ }
