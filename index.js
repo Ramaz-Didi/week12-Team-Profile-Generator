@@ -46,7 +46,7 @@ inquirer.prompt([{
             }
         },
         {
-            type: 'input',
+            type: 'email',
             name: 'email',
             message: "Please, enter The "+position+"'s Email",
             validate: (answer) => {
