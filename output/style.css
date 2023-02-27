@@ -3,7 +3,7 @@ background-color: rgb(255, 0, 93);
 color: white;
 }
 .card-header {
-    width: 300px;
+    width: 367px;
     height: 100px;
     background-color: blue;
 }
@@ -12,6 +12,8 @@ color: white;
 }
 .card-body {
     background-color:rgb(251, 243, 243);
+    width: 350px;
+    height: 200px;
 }
 .card-body {
     text-align: center;
@@ -20,14 +22,31 @@ color: white;
     background-image:linear-gradient(rgb(233, 244, 249), rgb(236, 246, 250));
     font-weight: bold;
  }
- .events {
+ .team-area {
 
     display: grid;
-    grid-template-columns: auto;
-    grid-auto-rows: auto;
-    grid-gap: .5rem;
+    /* grid-template-columns: auto; */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-auto-rows: 1rem;
+    grid-gap: 1rem;
+    column-gap: 2px;
+    row-gap: 2px;
  
  }
+ /* .griditem {
+    min-width: 200px;
+    min-height: 200px;
+    border: 4px solid;
+
+
+ } */
 .list-group-item {
     text-align: left;
+    gap: 10px;
+ }
+ .container {
+    width: 1650px;
+    height: 700px;
+   
  }

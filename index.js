@@ -21,7 +21,6 @@ let roleNumber = "";
 let role = "Manager";
 let teamInfo = [];
 function addingEmployeesInfo(position,additionalInfoChoice) {
-    console.log(position,additionalInfoChoice)
 inquirer.prompt([{
             type: 'input',
             name: 'name',
@@ -72,7 +71,7 @@ inquirer.prompt([{
         },
     ]).then(() =>
     {
-            console.log("role before push",role)
+            // console.log("role before push",role)
         
             if(role == roleArray[2]) 
             {team.push(new Intern(teamInfo[1],teamInfo[2],teamInfo[3],teamInfo[4]))}
@@ -83,7 +82,7 @@ inquirer.prompt([{
                             {team.push(new Manager(teamInfo[1],teamInfo[2],teamInfo[3],teamInfo[4]));};
             
                 }
-                console.log("after push",role,team);
+                // console.log("after push",role,team);
         justEmployeesAdding()}) //end of .then
 } //end of adding function
 
@@ -123,15 +122,7 @@ addingEmployeesInfo(role,0)
 
 async function startProgram(){
 
-    // if (team[0]="")
-
-
-    // team.push(new teamInfo[0](teamInfo[1],teamInfo[2],teamInfo[3],teamInfo[4]));
-    console.log(team)
-    // team.push(new Intern ("srgwhgwu",1,"skgs@skvs.com","LSE"))
-    // team.push(new Engineer("JSssf adff",2,"skgs@skvs.com","aereqge/github.com"))
-    // team.push(new Intern ("reraer aze",5,"skgs@skvs.com","FDG"))
-    // team.push(new Engineer("rgergre gmaz",1,"skgs@skvs.com","awrgqwe/github.com"))
+    // console.log(team)
 
     let htmlDoc = render(team)
     await fsp.writeFile(outputPath,htmlDoc);
