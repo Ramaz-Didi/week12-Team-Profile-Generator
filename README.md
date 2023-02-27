@@ -26,6 +26,7 @@ First Manager information is added, after that user can choose employee's type a
 After entries, HTML file created and it contains employee's profiles with distinguished additional information added on the bottom line. Member cards are indicating employee's role in the team.  
 ![Alt text](src/entry%20MNG.jpg)
 ![Alt text](src/entry%20Engineer%20&%20Intern.jpg)
+![HTML Screenshot](https://user-images.githubusercontent.com/117308754/221586578-f7eaee43-9f1e-49f1-ada3-8d325c17d5d9.jpg)
 
 ### *Tests*
 >  TESTS folder held page tests and all test are running and passed.![Alt text](src/Test%20all%20pass.jpg)
